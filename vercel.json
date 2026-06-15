@@ -1,0 +1,9 @@
+﻿{
+  "version": 3,
+  "name": "my-portfolio",
+  "cleanUrls": true,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
